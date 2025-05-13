@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M&C FitSpain - Nutrición Deportiva de Calidad</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo2.png" alt="M&C FitSpain Logo">
+                </a>
+            </div>
+            <nav>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="bebidas.html">Bebidas</a></li>
+                    <li><a href="comidas.html">Comidas</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>M&C FitSpain</h1>
+                <p class="slogan">"La salud y la gula pueden ir de la mano"</p>
+                <a href="#about" class="btn">Conócenos</a>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <h2>Sobre Nosotros</h2>
+                    <p>En M&C FitSpain llevamos <strong>13 años</strong> dedicados a la nutrición deportiva de calidad. Nuestra misión es proporcionar productos alimenticios de primera calidad para deportistas, combinando el sabor con los beneficios nutricionales que necesitas para alcanzar tus objetivos.</p>
+                    <p>Nos enorgullece ofrecer productos sin conservantes artificiales, con ingredientes naturales y formulaciones científicamente respaldadas que maximizan tu rendimiento deportivo.</p>
+                </div>
+                <div class="about-image">
+                    <img src="https://i.pinimg.com/originals/03/6c/bb/036cbb4d9e7a36c26674fba76c1d1c33.jpg" alt="Productos M&C FitSpain">
+                </div>
+            </div>
+        </section>
+
+        <section class="achievements">
+            <div class="container">
+                <h2>Nuestros Logros</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <i class="fas fa-medal"></i>
+                        <h3>Calidad Certificada</h3>
+                        <p>Todos nuestros productos cuentan con certificaciones de calidad y están elaborados bajo los más estrictos estándares.</p>
+                    </div>
+                    <div class="achievement-card">
+                        <i class="fas fa-users"></i>
+                        <h3>+50,000 Clientes</h3>
+                        <p>Más de 50,000 deportistas confían en nuestros productos para su nutrición diaria.</p>
+                    </div>
+                    <div class="achievement-card">
+                        <i class="fas fa-flask"></i>
+                        <h3>Innovación Constante</h3>
+                        <p>Nuestro equipo de nutricionistas trabaja constantemente en el desarrollo de nuevas fórmulas.</p>
+                    </div>
+                    <div class="achievement-card">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Compromiso Ecológico</h3>
+                        <p>Utilizamos envases sostenibles y procesos de producción respetuosos con el medio ambiente.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sponsors">
+            <div class="container">
+                <h2>Patrocinios con Deportistas de Élite</h2>
+                <div class="sponsors-grid">
+                    <div class="sponsor-card">
+                        <img src="https://as2.ftcdn.net/v2/jpg/04/39/30/99/1000_F_439309929_qe2mWjVrcNLsroeK68Yl2B5D10OZ5bCm.jpg" alt="Deportista Patrocinado">
+                        <h3>Carlos Martínez</h3>
+                        <p>Campeón Nacional de Triatlón</p>
+                    </div>
+                    <div class="sponsor-card">
+                        <img src="https://cdn.grupoelcorteingles.es/SGFM/dctm/MEDIA03/202203/03/00118623901347____17__1200x1200.jpg" alt="Deportista Patrocinada">
+                        <h3>Laura Sánchez</h3>
+                        <p>Medallista Olímpica en Natación</p>
+                    </div>
+                    <div class="sponsor-card">
+                        <img src="https://i.ytimg.com/vi/xja3KAg6B4g/maxresdefault.jpg" alt="Equipo Patrocinado">
+                        <h3>Equipo Ciclista ProTour</h3>
+                        <p>Ganadores de múltiples etapas en La Vuelta</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <aside class="offer-flash">
+            <div class="container">
+                <div class="offer-content">
+                    <h2>¡OFERTA FLASH!</h2>
+                    <div class="product-offer">
+                        <img src="https://admin.nzprotein.co.nz/img/products/creatine.png" alt="Creatina Premium">
+                        <div class="product-info">
+                            <h3>Creatina Premium</h3>
+                            <p class="description">Creatina monohidrato de alta pureza. Aumenta tu fuerza y rendimiento.</p>
+                            <p class="old-price">39,99€</p>
+                            <p class="new-price">29,99€</p>
+                            <a href="#" class="btn">¡Comprar Ahora!</a>
+                        </div>
+                    </div>
+                    <div class="countdown">
+                        <p>La oferta termina en:</p>
+                        <div id="timer">
+                            <div class="time-unit">
+                                <span id="hours">24</span>
+                                <span class="label">Horas</span>
+                            </div>
+                            <div class="time-unit">
+                                <span id="minutes">00</span>
+                                <span class="label">Minutos</span>
+                            </div>
+                            <div class="time-unit">
+                                <span id="seconds">00</span>
+                                <span class="label">Segundos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo2.png" alt="M&C FitSpain Logo">
+                    <p>La salud y la gula pueden ir de la mano</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="bebidas.html">Bebidas</a></li>
+                        <li><a href="comidas.html">Comidas</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contacto</h3>
+                    <p><i class="fas fa-envelope"></i> entrenaconMarcos@fitmail.com</p>
+                    <p><i class="fas fa-phone"></i> 915 365 247</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 M&C FitSpain. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Countdown Timer for Flash Offer
+        function startCountdown() {
+            // Set the target date to 24 hours from now
+            const targetDate = new Date();
+            targetDate.setHours(targetDate.getHours() + 24);
+            
+            // Update the countdown every second
+            const countdownInterval = setInterval(function() {
+                // Get current date and time
+                const now = new Date().getTime();
+                
+                // Calculate the remaining time
+                const distance = targetDate - now;
+                
+                // Calculate hours, minutes, and seconds
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+                // Display the result
+                document.getElementById("hours").textContent = hours.toString().padStart(2, '0');
+                document.getElementById("minutes").textContent = minutes.toString().padStart(2, '0');
+                document.getElementById("seconds").textContent = seconds.toString().padStart(2, '0');
+                
+                // If the countdown is finished, display a message
+                if (distance < 0) {
+                    clearInterval(countdownInterval);
+                    document.getElementById("timer").innerHTML = "<p>¡Oferta finalizada!</p>";
+                }
+            }, 1000);
+        }
+        
+        // Start the countdown when the page loads
+        window.onload = startCountdown;
+    </script>
+</body>
+</html>
